@@ -1,8 +1,8 @@
-phyLabEl=document.getElementById("phy-lab")
+favEl=document.getElementById("fav")
 mybtn=document.getElementById("btn")
 
 mybtn.addEventListener("click", function(){
-	phyLabEl.textContent="PHYSICS LAB IS MY FAVOURITE COURSE"
-	phyLabEl.style.backgroundColor="#80ffff"
+	favEl.textContent="CIL IS MY FAVOURITE COURSE"
+	favEl.style.backgroundColor="#80ffff"
 })
 
